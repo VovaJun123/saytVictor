@@ -1,0 +1,249 @@
+body{
+    background-color: black;
+    color:white;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+   
+    
+}
+
+
+.header_img{
+    width: 100%;
+    background-color: rgb(186, 118, 9);
+}
+
+.header_img img{
+    width: 43%;
+    height: 30%;
+    padding-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+}
+
+nav{
+    background: rgb(186, 118, 9);
+    padding: 15px 10px;   
+    color: rgb(14, 14, 13);
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+}
+
+
+nav > ul {
+   padding: 0;
+}
+nav li{
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+}
+nav a{
+    font-size: 28px;
+    color: rgb(10, 9, 8);
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 1px solid transparent;
+    transition: 0.3s;
+    border: 1px solid rgb(11, 11, 11);
+
+}
+nav a:hover{
+    border: 1px solid rgb(11, 11, 11);
+    color: white;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+nav label {    
+    display: none;
+    border: 1px solid #fff; 
+    font-size: 5.5vw;  
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+nav label:hover{
+    color: rgb(246, 243, 243);
+    border: 1px solid rgb(237, 230, 230);
+}
+
+
+@media screen and (max-width: 600px) {
+    
+    nav label{
+         display: inline-block;
+    }
+    nav > ul {
+        display: none;
+    }
+    input[type="checkbox"]:checked ~ label + ul {
+        display: block;
+    }
+}
+#linc2{
+    color: white;
+}
+
+.container_slider_css img{
+    max-height: 100%;
+    max-width: 100%;
+    min-height: 200px;
+}
+
+.container_slider_css{
+   
+    margin: 50px 11%;
+    width:500px;
+    height:700px;
+     overflow:hidden; 
+    position:relative
+}
+.photo_slider_css{
+    position:absolute;
+     animation:round 5s infinite; 
+    opacity:0; 
+    width:100%}
+@keyframes round {
+50%{opacity:1}
+80%{opacity:0}
+} 
+ img:nth-child(1){animation-delay:9s}
+img:nth-child(2){animation-delay:6s} 
+
+
+@media(min-width:0px) and (max-width:320px) {
+.container_slider_css{width:80%;height:350px}
+}
+@media(min-width:380px) and (max-width:480px) {
+.container_slider_css{width:80%;height:350px}
+}
+
+
+
+
+
+.container_slider_css2 img{
+    max-height: 100%;
+    max-width: 100%;
+    min-height: 200px;
+}
+
+.container_slider_css2{
+   
+    margin: 5% 20px 5px 20px;
+    width:30%;
+    height:700px;
+     overflow:hidden; 
+    position:relative
+}
+.photo_slider_css2{
+    position:absolute;
+     animation:round 5s infinite; 
+    opacity:0; 
+    width:100%}
+@keyframes round {
+50%{opacity:1}
+80%{opacity:0}
+} 
+ img:nth-child(1){animation-delay:9s}
+img:nth-child(2){animation-delay:6s} 
+
+
+@media(min-width:0px) and (max-width:320px) {
+.container_slider_css2{width:80%;height:350px}
+}
+@media(min-width:380px) and (max-width:480px) {
+.container_slider_css2{width:80%;height:350px}
+}
+
+
+
+
+
+ .conteiner1{
+    display: flex;
+    flex-wrap: wrap;
+ }
+ .conteiner2{
+    display: flex;
+    flex-wrap: wrap;
+ }
+.slayd1text{
+    max-width:fit-content;
+    margin: 0 auto;
+    padding: 2% 10px 10px 5px;
+}
+.slayd1text p{
+    font-size: 26px;
+    letter-spacing: 1px;
+}
+.slayd1text h2{
+    font-size: 18px;
+    text-align: center;
+}
+
+.slayd1text2{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 1% 5px 2% 5px;
+}
+.slayd1text2 p{
+    font-size: 23px;
+    letter-spacing: 1px;
+}
+
+
+
+
+.foteradres p{
+    color: white;
+    margin-left: 3.7vw;
+    font-size: 95%;
+    letter-spacing: 1px;
+}
+.fotertext p{
+    text-align: center;
+    color: white;
+    margin-top: 2vw;
+    font-size: 95%;
+    letter-spacing: 1px;
+}
+.fotertext a{
+    text-decoration: none;
+    color: azure;
+    border-bottom: 2px solid white;
+    padding: 2px;
+
+}
+.fotertext a:hover{
+    color: blue;
+    font-size: 24px;
+}
+.botomm p{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 85%;
+    letter-spacing: 1px;
+}
+.botoomimg{
+     text-align: center;
+}
+
+  .foteradres img{
+    max-width: 20%;
+    max-height: 20%;
+    min-width: 10%;
+    min-height: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+    margin-top: 40px;
+}  
+
+

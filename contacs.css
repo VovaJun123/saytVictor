@@ -1,0 +1,191 @@
+body{
+    background-color: black;
+    color:white;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+   
+    
+}
+
+
+.header_img{
+    width: 100%;
+    background-color: rgb(186, 118, 9);
+    
+}
+
+.header_img img{
+    width: 43%;
+    height: 30%;
+    padding-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+}
+
+nav{
+    background: rgb(186, 118, 9);
+    padding: 15px 10px;   
+    color: rgb(14, 14, 13);
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+}
+
+
+nav > ul {
+   padding: 0;
+}
+nav li{
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+}
+nav a{
+    font-size: 28px;
+    color: rgb(10, 9, 8);
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 1px solid transparent;
+    transition: 0.3s;
+    border: 1px solid rgb(11, 11, 11);
+
+}
+nav a:hover{
+    border: 1px solid rgb(11, 11, 11);
+    color: white;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+nav label {    
+    display: none;
+    border: 1px solid #fff; 
+    font-size: 5.5vw;  
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+nav label:hover{
+    color: rgb(246, 243, 243);
+    border: 1px solid rgb(237, 230, 230);
+}
+
+
+@media screen and (max-width: 600px) {
+    
+    nav label{
+         display: inline-block;
+    }
+    nav > ul {
+        display: none;
+    }
+    input[type="checkbox"]:checked ~ label + ul {
+        display: block;
+    }
+}
+#linc2{
+    color: white;
+}
+
+
+.bos_text h1{
+    text-align: center;
+    font-size: 28px;
+    border: 4px solid black;
+    margin: 0 auto;
+    letter-spacing: 1px;
+    font-weight: 900;
+    padding-top: 20px;
+}
+
+
+
+.formbloc{
+   /* display: flex;
+   justify-content: center;
+   align-items: center; */
+   margin-left: 25%;
+   
+}
+label{
+    margin: 0 5px;
+}
+.input1{
+    width: 40vw;
+    min-width: 270px;
+    height: 40px;
+}
+.input2{
+    width: 40vw;
+    min-width: 270px;
+    height: 300px;
+}
+.form_bottom{
+    width: 8%;
+    min-width: 70px;
+    height: 40px;
+    margin-top: 10px;
+}
+.bocs {
+    height: 40px;
+    min-width: 270px;
+    width: 40vw;
+}
+
+
+ .contenttext22 p{
+    text-align: center;
+    margin: 1%;
+    letter-spacing: 1px;
+}
+.foteradres p{
+    color: white;
+    margin-left: 3.7vw;
+    font-size: 95%;
+    letter-spacing: 1px;
+}
+.fotertext p{
+    text-align: center;
+    color: white;
+    margin-top: 2vw;
+    margin-bottom: 40px;
+    font-size: 95%;
+    letter-spacing: 1px;
+}
+.fotertext a{
+    text-decoration: none;
+    color: azure;
+    border-bottom: 2px solid white;
+    padding: 2px;
+
+}
+.fotertext a:hover{
+    color: blue;
+    font-size: 24px;
+}
+.botomm p{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 85%;
+    letter-spacing: 1px;
+}
+.botoomimg{
+     text-align: center;
+}
+
+  .foteradres img{
+    max-width: 20%;
+    max-height: 20%;
+    min-width: 10%;
+    min-height: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+    margin-top: 40px;
+}  
+
+
